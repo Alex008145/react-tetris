@@ -1,4 +1,4 @@
-import classes from "./Menu.module.css";
+import "./Menu.css";
 
 /**
  * Компонент Menu представляет собой базовый компонент меню.
@@ -8,8 +8,8 @@ import classes from "./Menu.module.css";
  */
 const Menu = ({ onClick }) => {
   return (
-    <div className={classes.Menu}>
-      <button className={classes.Button} onClick={onClick}>
+    <div className="Menu">
+      <button className="Button" onClick={onClick}>
         Play Tetris
       </button>
     </div>
