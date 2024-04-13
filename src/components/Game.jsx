@@ -12,10 +12,7 @@ import { useGameOver } from "../hooks/useGameOver";
 const Game = ({ rows, columns }) => {
   const [gameOver, setGameOver, resetGameOver] = useGameOver();
 
-  const start = () => {
-    resetGameOver();
-  };
-
+  const start = () => resetGameOver();
   return (
     <div className="Game">
       {gameOver ? (

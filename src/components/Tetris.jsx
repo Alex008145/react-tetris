@@ -10,7 +10,7 @@ import { useGameStats } from "../hooks/useGameStats";
 import { usePlayer } from "../hooks/usePlayer";
 
 const Tetris = ({ rows, columns, setGameOver }) => {
-  const [gameStats, addLinesCleared] = useGameStats({ rows, columns });
+  const [gameStats, addLinesCleared] = useGameStats();
   const [player, setPlayer, resetPlayer] = usePlayer();
   const [board, setBoard] = useBoard({
     rows,
