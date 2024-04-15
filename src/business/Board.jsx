@@ -80,6 +80,10 @@ export const nextBoard = ({ board, player, resetPlayer, addLinesCleared }) => {
     return acc;
   }, []);
 
+  if (linesCleared > 0) {
+    addLinesCleared(linesCleared);
+  }
+
   if (player.collided || player.isFastDropping) {
     resetPlayer();
   }

@@ -1,3 +1,9 @@
+# Tetris with React
+
+Interesting and fun project with a lot of game logic
+
+# Preview
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
