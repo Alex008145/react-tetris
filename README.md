@@ -2,7 +2,9 @@
 
 Interesting and fun project with a lot of game logic
 
-# Preview
+# Live Preview
+
+https://react-tetris-alex008145s-projects.vercel.app/
 
 # Getting Started with Create React App
 
